@@ -4,12 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
+:root {
+  background-color: #515151;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: "Calibri Light";
   background-color: #F4EEEA;
+  overflow-x: hidden;
 }
 
 
