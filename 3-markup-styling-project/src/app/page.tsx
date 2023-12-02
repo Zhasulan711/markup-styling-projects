@@ -20,13 +20,13 @@ export default function Home() {
             <section className="pt-5 pl-[18px] flex flex-col">
               <h2
                 className="text-[#FFFEFD] 
-              pc-sm:text-4xl"
+              sm-min:text-[19px] sm:text-xl md:text-2xl lg:text-3xl pc-sm:text-4xl"
               >
                 Welcome to SevenOaks
               </h2>
               <p
                 className="text-[#FFFEFD] 
-                pc-sm:text-3xl"
+                sm-min:text-lg sm:text-[19px] md:text-xl lg:text-2xl pc-sm:text-3xl"
               >
                 website which is run by the <br /> friends of SevenOaks
               </p>
