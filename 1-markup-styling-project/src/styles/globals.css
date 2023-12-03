@@ -1,0 +1,85 @@
+@import url("https://v1.fontapi.ir/css/SFProDisplay:300;400;500");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display'); */
+:root {
+  background-color: #ececec;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ececec;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+@layer utilities {
+  .font-width-86 {
+    font-stretch: 86%;
+  }
+  .font-width-39 {
+    font-stretch: 39%;
+  }
+  .font-width-56 {
+    font-stretch: 56%;
+  }
+  .font-width-68 {
+    font-stretch: 68%;
+  }
+  .font-width-78 {
+    font-stretch: 78%;
+  }
+  .font-width-87 {
+    font-stretch: 87%;
+  }
+  .font-width-35 {
+    font-stretch: 35%;
+  }
+  .font-width-43 {
+    font-stretch: 43%;
+  }
+  .font-width-30 {
+    font-stretch: 30%;
+  }
+  .font-width-114 {
+    font-stretch: 114%;
+  }
+  .font-width-101 {
+    font-stretch: 101%;
+  }
+  .font-width-70 {
+    font-stretch: 70%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px; 
+  height: 2px;/* Set the width of the scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.50);/* Change the color of the scrollbar handle on hover */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Change the color of the scrollbar handle */
+  border-radius: 6px; /* Set the border-radius of the scrollbar handle */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.10);
+  margin-left: 20px;
+  margin-right: 20px /* Change the background color of the scrollbar track */
+}
+
+/* Handle when it's moving */
+::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 255, 255, 0.50);; /* Change the color of the scrollbar handle when it's moving */
+}
