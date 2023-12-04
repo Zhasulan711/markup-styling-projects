@@ -14,7 +14,8 @@ export default function Home() {
       <section className="flex 
       sm-little:flex-col sm-min:flex-col xl:flex-row pc-sm:flex-row 
       sm-little:items-center sm-min:items-center xl:justify-center pc-sm:justify-center 
-      sm-little:space-y-[20px] sm-min:space-y-[20px] xl:space-x-[30px] xl:space-y-0 pc-sm:space-x-[30px]">
+      sm-little:space-y-[20px] sm-min:space-y-[20px] xl:space-y-0 
+      xl:space-x-[30px] pc-sm:space-x-[30px]">
         <div className="w-[260px] h-[260px] bg-[#4EB1F6] flex flex-col items-center pt-[50px] ">
           <figure className="h-[70px]">
             <img src="./ic-1.png" alt="magnitude"/>
