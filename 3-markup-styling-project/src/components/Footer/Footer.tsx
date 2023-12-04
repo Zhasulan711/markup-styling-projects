@@ -5,14 +5,14 @@ import "../../styles/globals.css";
 export default function Footer() {
   return (
     <footer
-      className="w-full bg-[#515151] sm-min:mt-[270px] pc-sm:mt-[0px] h-full flex flex-col items-center"
+      className="w-full bg-[#515151] sm-little:mt-[700px] sm-min:mt-[270px] pc-sm:mt-[0px] h-full flex flex-col items-center"
     >
       <div
         className="flex pt-[25px]
-        sm-min:flex-col pc-sm:flex-row
-        sm-min:items-center pc-sm:justify-center
+        sm-little:flex-col sm-min:flex-col pc-sm:flex-row
+        sm-little:items-center sm-min:items-center pc-sm:justify-center
         pc-sm:pl-[200px]
-        sm-min:space-y-[100px] pc-sm:space-y-[0px] 
+        sm-little:space-y-[100px] sm-min:space-y-[100px] pc-sm:space-y-[0px] 
         pc-sm:space-x-[435px]"
       >
         <div className="flex flex-col space-y-5">
