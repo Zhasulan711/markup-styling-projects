@@ -16,7 +16,8 @@ const config: Config = {
       },
     },
     screens: {
-      "sm-min": "550px", // Phone
+      "sm-little": "486px",
+      "sm-min": "559px", // Phone
       sm: "640px", // Tablet/Phone
       md: "768px", // Tablet/Phone
       lg: "1024px", // PC/Laptop
