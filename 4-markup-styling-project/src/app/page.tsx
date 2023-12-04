@@ -13,10 +13,10 @@ export default function Home() {
         <img src="./main-pic.png" className="absolute z-0" />
         <section className="pt-[145px] z-10 flex flex-col items-center space-y-[25px] mt-[80px]">
           <h2 className="text-[#FFFCFE] font-semibold
-          sm-min:text-[3xl] sm:text-4xl pc-sm:text-4xl">
+          sm-little:text-2xl sm-min:text-2xl sm:text-4xl pc-sm:text-4xl">
             CRAS ORNARE TRIST LOREM IPSUM
           </h2>
-          <p className="text-[#FFFCFE] sm-min:text-[2xl] sm:text-3xl pc-sm:text-3xl font-light">
+          <p className="text-[#FFFCFE] sm-little:text-xl sm-min:text-xl sm:text-3xl pc-sm:text-3xl font-light">
             CUSCE PELLENTESQUE SUSC
           </p>
           <aside className="border border-[#FFFCFE] w-[140px] h-[45px] text-center pt-[10.5px]">
@@ -27,8 +27,9 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="grid sm-min:grid-cols-1 pc-sm:grid-cols-2 pt-[130px]">
-            <div className="bg-[#E74C3B] w-[585px] h-[330px] relative">
+          <div className="grid sm-little:grid-cols-1 sm-min:grid-cols-1 pc-sm:grid-cols-2 pt-[130px]">
+            <div className="bg-[#E74C3B] h-[330px] relative
+            sm-little:w-[500px] sm-min:w-[585px]">
               <div className="flex flex-col items-center">
                 <figure className="h-[110px] relative mt-[55px]">
                   <img src="./ic-chat.png" alt="chat" className="absolute pt-4 pl-4"/>
@@ -46,7 +47,8 @@ export default function Home() {
                 </article>
               </div>
             </div>
-            <div className="bg-[#FDBC1D] w-[585px] h-[330px] relative">
+            <div className="bg-[#FDBC1D] h-[330px] relative
+            sm-little:w-[500px] sm-min:w-[585px]">
               <div className="flex flex-col items-center">
                 <figure className="h-[110px] relative mt-[55px]">
                   <img src="./ic-pencil.png" alt="chat" className="absolute pt-5 pl-5"/>
@@ -66,7 +68,8 @@ export default function Home() {
                 </article>
               </div>
             </div>
-            <div className="bg-[#19BC9B] w-[585px] h-[330px] relative">
+            <div className="bg-[#19BC9B] h-[330px] relative
+            sm-little:w-[500px] sm-min:w-[585px]">
               <div className="flex flex-col items-center">
                 <figure className="h-[110px] relative mt-[55px]">
                   <img src="./ic-crown.png" alt="chat" className="absolute pt-4 pl-[18px]"/>
@@ -84,7 +87,8 @@ export default function Home() {
                 </article>
               </div>
             </div>
-            <div className="bg-[#9B58B5] w-[585px] h-[330px] relative">
+            <div className="bg-[#9B58B5] h-[330px] relative
+            sm-little:w-[500px] sm-min:w-[585px]">
               <div className="flex flex-col items-center">
                 <figure className="h-[110px] relative mt-[55px]">
                   <img src="./ic-user.png" alt="chat" className="absolute pt-4 pl-4"/>
@@ -113,7 +117,7 @@ export default function Home() {
           </h4>
           <div className="flex flex-row ">
             <div className="h-[1px] bg-[#377C85] w-[100px] flex justify-between mt-[29.5px]"></div>
-            <p className="text-[#FFFFFF] sm-min:text-xs sm:text-sm pc-sm:text-base pt-[20px]">
+            <p className="text-[#FFFFFF] sm-little:text-[11px] sm-min:text-xs sm:text-sm pc-sm:text-base pt-[20px]">
               INTEGER VITAE LIBERO AC RISUS EGESTAS PLACERAT
             </p>
             <div className="h-[1px] bg-[#377C85] w-[100px] transform mt-[29.5px]"></div>
@@ -121,7 +125,7 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="flex sm-min:flex-col sm-min:items-center pc-sm:flex-row pc-sm:justify-center pc-sm:space-x-[25px] mt-[65px]">
+        <div className="flex sm-little:flex-col sm-little:items-center sm-min:flex-col sm-min:items-center pc-sm:flex-row pc-sm:justify-center pc-sm:space-x-[25px] mt-[65px]">
           <div className="bg-[#204A52] flex flex-col items-center space-y-[30px] w-[370px] h-[470px] border-t-8 border-[#E84A3E]">
             <figure>
               {" "}
