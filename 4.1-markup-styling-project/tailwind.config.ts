@@ -15,7 +15,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       screens: {
-        "sm-min": "550px", // Phone
+        "sm-little": "499.13px",
+        "sm-min": "559px", // Phone
         sm: "640px", // Tablet/Phone
         md: "768px", // Tablet/Phone
         lg: "1024px", // PC/Laptop
