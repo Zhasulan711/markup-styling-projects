@@ -14,19 +14,19 @@ export default function Home() {
           <img src="./main-pic.jpg" className="absolute h-full w-full"/>
           <article
             className="absolute bg-[#008A9F] mt-[230px] h-[155px] 
-            sm-min:w-[200px] sm:w-[240px] md:w-[300px] lg:w-[390px] xl:w-[430px] pc-sm:w-[460px]
-            sm-min:ml-[33px] sm:ml-[66px] md:ml-[99px] lg:ml-[132px] xl:ml-[165px] pc-sm:ml-[200px] pc-md:ml-[233px] 2xl:ml-[285px] pc-16-9:ml-[320px] pc-full-hd:ml-[465px] pc-2k:ml-[795px] pc-ws:ml-[1245px] pc-4k:ml-[1420px]"
+            sm-little:w-[170px] sm-min:w-[200px] sm:w-[240px] md:w-[300px] lg:w-[390px] xl:w-[430px] pc-sm:w-[460px]
+            sm-little:ml-[30px] sm-min:ml-[33px] sm:ml-[66px] md:ml-[99px] lg:ml-[132px] xl:ml-[165px] pc-sm:ml-[200px] pc-md:ml-[233px] 2xl:ml-[285px] pc-16-9:ml-[320px] pc-full-hd:ml-[465px] pc-2k:ml-[795px] pc-ws:ml-[1245px] pc-4k:ml-[1420px]"
           >
-            <section className="pt-5 pl-[18px] flex flex-col">
+            <section className="sm-little:pl-[8px] pt-5 sm-min:pl-[18px] pc-sm:pl-[18px] flex flex-col">
               <h2
                 className="text-[#FFFEFD] 
-              sm-min:text-[19px] sm:text-xl md:text-2xl lg:text-3xl pc-sm:text-4xl"
+              sm-little:text-[16px] sm-min:text-[19px] sm:text-xl md:text-2xl lg:text-3xl pc-sm:text-4xl"
               >
                 Welcome to SevenOaks
               </h2>
               <p
                 className="text-[#FFFEFD] 
-                sm-min:text-lg sm:text-[19px] md:text-xl lg:text-2xl pc-sm:text-3xl"
+                sm-little:text-[17px] sm-min:text-lg sm:text-[19px] md:text-xl lg:text-2xl pc-sm:text-3xl"
               >
                 website which is run by the <br /> friends of SevenOaks
               </p>
@@ -36,13 +36,14 @@ export default function Home() {
 
         <div className="w-full h-[565px]">
           <section
-            className="pt-[35px] flex flex-row
-            justify-center
-            sm-min:space-[0px] pc-sm:space-x-[20px]"
+            className="pt-[35px] flex 
+            sm-little:flex-col sm-min:flex-row
+            sm-little:items-center sm-min:justify-center
+            sm-little:space-y-[20px] sm-min:space-x-[0px] sm-min:space-y-[0px] pc-sm:space-x-[20px]"
           >
             <div
               className="h-[195px] bg-[#C3B3AA] relative
-              sm-min:w-[250px] pc-sm:w-[320px]"
+              w-[320px]"
             >
               <article className="">
                 <img
@@ -59,7 +60,7 @@ export default function Home() {
                 <Link
                   href="/more"
                   className="mt-[15px] bg-[#008A9F] transition-colors delay-150 hover:bg-sky-500 h-[45px] flex justify-center items-center absolute bottom-0 right-0
-                  sm-min:w-[px] pc-sm:w-[260px]"
+                  sm-min:w-[250px] pc-sm:w-[260px]"
                 >
                   <p className="text-[#FFFEFD] ml-6">
                     Read stories of Seven Oaks
@@ -140,8 +141,9 @@ export default function Home() {
 
           <div
             className="w-full pt-[30px] flex 
-            sm-min:flex-col pc-sm:flex-row
-            pc-sm:space-x-[40px] sm-min:items-center justify-center"
+            sm-little:flex-col sm-min:flex-col pc-sm:flex-row
+            pc-sm:space-x-[40px] 
+            sm-little:items-center sm-min:items-center justify-center"
           >
             <div>
               <h4 className="text-[#039AB2] text-xl">UPCOMING EVENTS</h4>
