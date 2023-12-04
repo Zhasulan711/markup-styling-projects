@@ -19,7 +19,8 @@ const config: Config = {
         lg: "0 8px 16px var(--tw-shadow-color)",
       },
       screens: {
-        "sm-min": "550px", // Phone
+        "sm-little": "480px", // Phone
+        "sm-min": "559px", // Phone
         sm: "640px", // Tablet/Phone
         md: "768px", // Tablet/Phone
         lg: "1024px", // PC/Laptop
