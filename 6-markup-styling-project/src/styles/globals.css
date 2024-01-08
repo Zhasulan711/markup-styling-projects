@@ -1,0 +1,17 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500;700;900&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #505050;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "sans-serif";
+  background-color: #FCFAFB;
+  overflow-x: hidden;
+}
